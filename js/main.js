@@ -7,4 +7,5 @@ elBtn.addEventListener("click", function (evt) {
   var elLi = document.createElement("li");
   elLi.textContent = elInputText.value;
   elList.appendChild(elLi);
+  elInputText.value = ""  
 });
